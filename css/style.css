@@ -1,0 +1,43 @@
+body {
+    background: radial-gradient(#e9e9e9, #9f9b9b);
+    color: black;
+    margin: 0;
+    font-size: 20px ;
+}
+.head{
+    background: radial-gradient(#b8b8c1, #303030);
+    padding: 40px;
+    text-align: center; 
+}
+.head h2 {
+    margin: 0;
+}
+.corpo {
+    margin: 0 120px 20px 120px;
+}
+.corpo p {
+    text-align: justify;
+    line-height: 24px;
+    margin: 10px;
+}
+.projeto h3 {
+    font-weight: bold
+}
+.contato p {
+    margin: 10px;
+    line-height: 24px;
+}
+p span {
+    font-weight: bold;
+}
+h1, h2 {
+    text-transform: capitalize;
+}
+
+.icone {
+    height: 20px;
+    float: left;
+    margin: 5px;
+    position: relative;
+    top: -3px;
+}
