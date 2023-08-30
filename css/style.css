@@ -1,16 +1,41 @@
+.center-head {
+  background-color: radial-gradient(#b8b8c1, #303030);
+  text-align: left;
+  margin: auto;
+}
+
 .head {
   background: radial-gradient(#b8b8c1, #303030);
-  padding: 40px;
-  text-align: center;
+  width: 72%;
+  margin: auto;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.head h2 {
-  margin: 0;
+.cabecalho {
+  padding: 40px 40px 40px 40px;
+}
+
+.avatar img {
+  float: left;
+  height: 200px;
+  display: inline;
 }
 body {
   background: radial-gradient(#e9e9e9, #9f9b9b);
   color: black;
   margin: 0;
   font-size: 20px;
+}
+.navigation {
+  width: 72%;
+  margin: auto;
+  padding: 0px 40px 0px 40px;
+  background: radial-gradient(#e9e9e9, #9f9b9b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navigation li {
   display: inline-block;
@@ -21,7 +46,7 @@ body {
 
 .navigation li a:link,
 .navigation li a:visited {
-  color: gray;
+  color: rgb(10, 9, 9);
   text-decoration: none;
 }
 .navigation li a:hover {
@@ -34,7 +59,10 @@ body {
 }
 
 .corpo {
-  margin: 0 120px 20px 120px;
+  width: 72%;
+  background-color: blue;
+  margin: auto;
+  padding: 40px;
 }
 .corpo p {
   text-align: justify;
