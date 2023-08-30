@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 .cabecalho {
   padding: 40px 40px 40px 40px;
@@ -25,7 +26,7 @@
 body {
   background: radial-gradient(#e9e9e9, #9f9b9b);
   color: black;
-  margin: 0;
+  margin: 10px;
   font-size: 20px;
 }
 .navigation {
@@ -36,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 .navigation li {
   display: inline-block;
@@ -63,6 +65,7 @@ body {
   background-color: blue;
   margin: auto;
   padding: 40px;
+  border-radius: 5px;
 }
 .corpo p {
   text-align: justify;
@@ -87,7 +90,14 @@ h2 {
 .icone {
   height: 20px;
   float: left;
-  margin: 5px;
   position: relative;
+  margin: 4px 5px;
+  top: 8px;
+}
+.icone1 {
+  height: 20px;
+  float: left;
+  position: relative;
+  margin: 4px 5px;
   top: -3px;
 }
