@@ -62,7 +62,6 @@ body {
 }
 
 .corpo {
-  line-height: 3rem;
   width: 72%;
   background-color: blue;
   margin: auto;
@@ -122,4 +121,26 @@ h2 {
   position: relative;
   margin: 4px 5px;
   top: -3px;
+}
+
+.btn-up {
+  width: 80px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.2;
+}
+.btn-up:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  position: relative;
+  padding: 120px;
+  background-color: #b8b8c1;
+  color: white;
+  text-align: center;
+}
+.icon-footer {
+  width: 20px;
 }
