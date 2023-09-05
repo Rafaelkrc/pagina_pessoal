@@ -63,7 +63,7 @@ body {
 
 .corpo {
   width: 72%;
-  background-color: blue;
+  background: radial-gradient(#b8b8c1, #7e7b7b);
   margin: auto;
   padding: 40px;
   border-radius: 5px;
@@ -123,11 +123,13 @@ h2 {
   top: -3px;
 }
 
-.btn-up {
-  width: 80px;
+.btn-inicio {
   position: fixed;
   bottom: 20px;
   right: 20px;
+}
+.btn-up {
+  width: 80px;
   opacity: 0.2;
 }
 .btn-up:hover {
@@ -135,10 +137,10 @@ h2 {
 }
 
 .footer {
+  width: auto;
   position: relative;
-  padding: 120px;
-  background-color: #b8b8c1;
-  color: white;
+  padding: 20px;
+  color: rgb(12, 12, 12);
   text-align: center;
 }
 .icon-footer {
