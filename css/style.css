@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .center-head {
   background-color: radial-gradient(#b8b8c1, #303030);
   text-align: left;
@@ -28,7 +32,6 @@
   position: absolute;
   right: 50%;
   transform: translateX(50%);
-
   z-index: 1;
 }
 .logomarca {
@@ -47,6 +50,7 @@ body {
   margin: 10px;
   font-size: 20px;
 }
+
 .navigation {
   width: 72%;
   margin: auto;
